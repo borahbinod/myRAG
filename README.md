@@ -1,27 +1,39 @@
 # myRAG
 A Retrieval augmented generation system built from scratch to work on my ecology database
 ```
-PDF
+PDFs
  ↓
-pdftools
- ↓
-Extract text
+Text extraction
+
  ↓
 LLM extraction
- ↓
-Metadata table
 
-title
-authors
-year
-location
-species
-topic
-methods
-summary
+      title
+      authors
+      year
+      location
+      species
+      response
+      predictors
+      methods
+      summary
 
  ↓
-FAISS embeddings
+PostgreSQL / DuckDB
+
  ↓
-RAG system
+Chunk embeddings
+
+ ↓
+FAISS
+
+ ↓
+Hybrid Retrieval
+
+    metadata
+    keyword
+    semantic
+
+ ↓
+RAG
 ```
