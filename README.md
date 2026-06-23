@@ -6,17 +6,7 @@ PDFs
 Text extraction
 
  ↓
-LLM extraction
-
-      title
-      authors
-      year
-      location
-      species
-      response
-      predictors
-      methods
-      summary
+Metadata extraction
 
  ↓
 PostgreSQL / DuckDB
